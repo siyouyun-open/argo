@@ -9,7 +9,7 @@ aria2 RPC in #Go
 
 ## Install
 
-`go get github.com/zyxar/argo/rpc`
+`go get github.com/siyouyun-open/argo/rpc`
 
 ## Interface
 

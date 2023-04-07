@@ -7,7 +7,7 @@ import (
 	"strconv"
 
 	"github.com/olekukonko/tablewriter"
-	"github.com/zyxar/argo/rpc"
+	"github.com/siyouyun-open/argo/rpc"
 )
 
 var (
