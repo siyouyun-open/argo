@@ -4,6 +4,7 @@ package rpc
 type Protocol interface {
 	AddURI(uris []string, options ...interface{}) (gid string, err error)
 	AddTorrent(filename string, options ...interface{}) (gid string, err error)
+	AddTorrent2(fileContent []byte, options ...interface{}) (gid string, err error)
 	AddMetalink(filename string, options ...interface{}) (gid []string, err error)
 	Remove(gid string) (g string, err error)
 	ForceRemove(gid string) (g string, err error)
